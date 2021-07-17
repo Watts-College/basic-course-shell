@@ -1,7 +1,8 @@
-# Welcome to Jekyll!
-#
+# Welcome to Jekyll
 # This config file is meant for settings that affect your whole website.
 
+
+# EDIT THESE FOR EACH NEW COURSE
 
 # GitHub Course Location 
 
@@ -16,17 +17,28 @@ url :               "https://watts-college.github.io"
 baseurl:            "/basic-course-shell"
 course_url:         "https://watts-college.github.io/basic-course-shell/"
 
+# link to your office hour booking page
+calendly:  'https://calendly.com/username/'
 
-# NAVIGATION BAR
+# alternative if you want to use your email for scheduling
+# calendly:  'mailto:fake@asu.edu'
+
+
+
+# SITE NAVIGATION - OPTIONAL CHANGES
 # set header color at assets/css/custom.css under default_nav and footer background-color
 
+# Navigation Bar Header
 # Header text on the left
+# in the default html file add extra fav icons to header for parts II and III
+
 brand:
     image:          # logo.svg  # e.g. logo.png, upload logo image file to /assets/img/ folder
     text:           "Program Evaluation"    # if the above "logo:" image variable  is not set, this text logo is displayed instead
-    # in the default html file add extra fav icons to header for parts II and III
+    
 
 # Main website top navigation bar
+
 header:
 - title: Syllabus
   url: 
@@ -40,7 +52,7 @@ header:
   url: help/
 
 
-calendly:  'mailto:fake@asu.edu'
+
 
 
 
@@ -52,11 +64,6 @@ calendly:  'mailto:fake@asu.edu'
 
 # Permalink URLs structure, for permalink style options see: https://jekyllrb.com/docs/permalinks/
 permalink:          /:title/
-
-# Default author settings
-author:
-    name:       Jesse Lecy
-    github:     lecy   # Github username for avatar
 
 # Social icons displayed in footer
 social:
